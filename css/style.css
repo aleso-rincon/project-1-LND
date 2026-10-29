@@ -540,6 +540,10 @@ footer {
     padding: 18px 23px;
 }
 
+hr.new1 {
+    border: 1px solid black;
+    width: 40%;
+}
 
 /* TABLET */
 
