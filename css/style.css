@@ -1,0 +1,1061 @@
+.material-symbols-outlined {
+    color: #765c05;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Coolvetica", sans-serif;
+}
+
+@font-face {
+    font-family: "Cocogoose";
+    src: url(../fonts/cocogoose.ttf);
+}
+
+@font-face {
+    font-family: "Adelia";
+    src: url(../fonts/adelia.ttf);
+}
+
+@font-face {
+    font-family: "Ananda";
+    src: url(../fonts/ananda.ttf);
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(../fonts/coolvetica.otf);
+}
+
+
+
+
+/* HEADER */
+
+.container-header-hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/header-background-flowers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-header-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-hero {
+    width: 100%;
+    height: 100%;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 15px;
+    border: solid #d4c3be;
+    border-radius: 30px;
+    background-color: #d4c3be;
+}
+
+.menu a {
+    font-family: "Coolvetica", sans-serif;
+    text-decoration: none;
+    color: #554203;
+}
+
+.menu a:hover {
+    transition: 0.1s;
+    background-color: #7d9679;
+    border: solid #7d9679;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.site-title h1 {
+    font-family: "Ananda", sans-serif;
+    color: #624c04;
+    text-align: center;
+    font-size: 170px;
+    height: min-content;
+}
+
+.site-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+/* MAIN */
+/* Section Gallery */
+
+.gallery {
+    width: 100%;
+    padding: 50px;
+    background-color: #d3a746;
+}
+
+.gallery h2 {
+    padding: 10px 20px;
+    background-color: #765c05;
+    border: solid #554204;
+    border-radius: 10px;
+    color: white;
+    font-family: "Cocogoose", sans-serif;
+}
+
+.container-gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-image: url(../img/wood_table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #554204;
+    box-shadow: 10px 10px 5px #614f01;
+}
+
+.title-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container-gallery-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 80px 25px 80px;
+}
+
+.gallery-card {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding: 5px;
+    background-color: #ac8c0d;
+    border: solid #554204;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid #554204;
+    border-radius: 10px;
+}
+
+.gallery-card img:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.gallery-card p {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    align-items: center;
+    background-color: #765c05;
+    border: solid #554204;
+    border-radius: 10px;
+    color: white;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+/* Section Romania */
+
+.romania {
+    display: flex;
+    flex-direction: unset;
+    background-color: antiquewhite;
+    height: 820px;
+    width: 100%;
+    padding: 50px;
+}
+
+.background-wood {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px;
+    background-image: url(../img/fondo-madera-claro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #765c05;
+    box-shadow: 10px 10px 5px #614f01;
+    
+}
+
+.container-romania {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.romania-img {
+    width: 600px;
+    height: 100%;
+    justify-content: flex-start;
+    border-bottom: 2px;
+    border-left: solid #765c05;
+    border-bottom: solid #765c05;
+    border-top: solid #765c05;
+}
+
+.romania-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.container-romania-text {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    border: solid #765c05;
+    background-color: #faebd7;
+
+}
+
+.container-romania-text h4 {
+    padding: 0 20px 0 40px;
+    font-family: "Cocogoose", sans-serif;
+    text-align: center;
+}
+
+.container-romania-text p {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #d5c7b4;
+}
+
+.container-romania-text a {
+    padding: 15px;
+    border: solid #d4c3be;
+    border-radius: 30px;
+    background-color: #d4c3be;
+    font-family: "Coolvetica", sans-serif;
+    text-decoration: none;
+    color: #554203;
+}
+
+.container-romania-text a:hover {
+    transition: 0.1s;
+    background-color: #c7ca10;
+    border: solid #c7ca10;
+}
+
+
+/* Section Endengered */
+
+.endengered {
+    width: 100%;
+    height: 900px;
+    background-color: #d3a746;
+    border: 4px solid #d3a746;
+}
+
+.container-endengered {
+    height: 89%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/wood_table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px #614f01;
+}
+
+.container-gallery-cards-endengered {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.gallery-card-endengered {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    background-color: #ac8c0d;
+    border: solid #554204;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-card-endengered img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid #554204;
+    border-radius: 10px;
+}
+
+.gallery-card-endengered img:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.gallery-card-endengered p {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    align-items: center;
+    background-color: #765c05;
+    border: solid #554204;
+    border-radius: 10px;
+    color: white;
+}
+
+.container-endengered h2 {
+    margin: 70px 70px 40px 70px;
+    padding: 10px 20px;
+    background-color: #765c05;
+    border: solid #554204;
+    border-radius: 10px;
+    color: white;
+    font-family: "Cocogoose", sans-serif;
+}
+
+#endegered-bottom-text {
+    letter-spacing: 1px;
+    margin: 20px 130px 50px 130px;
+    padding: 25px;
+    font-size: 20px;
+    border: solid #554204;;
+    border-radius: 20px;
+    background-color: #765c05;
+    color: white
+}
+
+
+/* Section Contact */
+/* Contact form */
+
+.contact-form {
+    background-color: #faebd7;
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+}
+
+.background-wood-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(../img/fondo-madera-claro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px #614f01;
+}
+
+.form-container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #faebd7;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.contact-form h2 {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    letter-spacing: 1px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-container input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #9a820c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: orange;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+    background-color: #d3a746;
+}
+
+.external-container-footer {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer-flowers-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-footer {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer-flowers-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7ca10;
+
+}
+
+.footer-info {
+    border: solid;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d3a746;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 170px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text:nth-child(3) {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h3, hr {
+    color: black;
+}
+
+.footer-text p {
+    color: #393838;
+}
+
+.footer-text button {
+    border: solid #765d26;
+    background-color: #765d26;
+    color: #edebeb;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 15px 20px;
+}
+
+.footer-text button:hover {
+    transition: 0.1s;
+    background-color: #7d9679;
+    border: solid #7d9679;
+    border-radius: 40px;
+    padding: 18px 23px;
+}
+
+
+/* TABLET */
+
+@media screen and (max-width: 991px) {
+
+    /* HEADER */
+
+    .container-header-hero {
+        min-height: 600px;
+        height: 75vh;
+        background-position: center;
+    }
+
+    .container-header {
+        justify-content: space-between;
+        padding: 20px 35px;
+    }
+
+    .site-title {
+        margin-top: 100px;
+    }
+
+    .site-title h1 {
+        font-size: clamp(65px, 12vw, 120px);
+    }
+
+
+    /* Section Gallery */
+
+    .gallery {
+        padding: 30px;
+    }
+
+    .container-gallery {
+        padding: 10px;
+    }
+
+    .title-gallery {
+        padding: 20px 10px;
+    }
+
+    .gallery h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container-gallery-cards {
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .gallery-card {
+        width: calc(33.333% - 20px);
+        min-width: 180px;
+        max-width: 225px;
+    }
+
+    .gallery-card img {
+        height: 180px;
+    }
+
+
+    /* Section Romania */
+
+    .romania {
+        height: auto;
+        min-height: 600px;
+        padding: 30px;
+    }
+
+    .background-wood {
+        padding: 20px;
+    }
+
+    .container-romania {
+        align-items: stretch;
+        padding: 50px 0;
+    }
+
+    .romania-img {
+        width: 60%;
+        min-width: 0;
+    }
+
+    .container-romania-text {
+        width: 40%;
+        flex-shrink: 1;
+        padding: 15px;
+    }
+
+    .container-romania-text h4 {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .container-romania-text p {
+        padding: 10px;
+    }
+
+
+    /* Section Endengered Flora */
+
+    .endengered {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container-endengered {
+        height: auto;
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .container-endengered h2 {
+        margin: 25px 10px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .container-gallery-cards-endengered {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .gallery-card-endengered {
+        width: calc(33.333% - 20px);
+        min-width: 180px;
+        max-width: 300px;
+    }
+
+    .gallery-card-endengered img {
+        height: 220px;
+    }
+
+    #endegered-bottom-text {
+        margin: 30px 10px;
+        padding: 20px;
+        font-size: 17px;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }
+
+
+    /* Contact Form */
+
+    .contact-form {
+        height: auto;
+        min-height: 600px;
+        padding: 30px;
+    }
+
+    .background-wood-form {
+        min-height: 500px;
+        padding: 30px;
+    }
+
+    .form-container {
+        width: min(100%, 500px);
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        height: auto;
+        min-height: 500px;
+        padding: 30px;
+    }
+
+    .container-footer {
+        padding: 30px;
+    }
+
+    .footer-info {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        min-height: 300px;
+        padding: 25px 10px;
+        gap: 25px;
+    }
+
+    .footer-text {
+        width: 190px;
+        max-width: 100%;
+    }
+}
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    .container-header-hero,
+    .gallery,
+    .romania,
+    .endengered,
+    .contact-form,
+    footer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* HEADER */
+
+    .container-header-hero {
+        height: 65vh;
+        min-height: 400px;
+        background-position: center;
+    }
+
+    .container-header {
+        height: 85px;
+        padding: 12px 20px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .material-symbols-outlined {
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    .site-title {
+        margin-top: 100px;
+        padding: 0 15px;
+    }
+
+    .site-title h1 {
+        font-size: clamp(45px, 10vw, 75px);
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* Flora Gallery */
+
+    .gallery {
+        padding: 15px;
+    }
+
+    .container-gallery {
+        padding: 8px;
+    }
+
+    .title-gallery {
+        padding: 20px 5px;
+    }
+
+    .gallery h2 {
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .container-gallery-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px 5px;
+    }
+
+    .gallery-card {
+        width: calc(50% - 6px);
+        min-width: 0;
+        max-width: 225px;
+        flex: 0 1 calc(50% - 6px);
+    }
+
+    .gallery-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .gallery-card p {
+        margin: 4px 0;
+        padding: 8px 4px;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* Section Romania */
+
+    .romania {
+        height: auto;
+        min-height: 0;
+        padding: 15px;
+    }
+
+    .background-wood {
+        padding: 12px;
+    }
+
+    .container-romania {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 15px 0;
+    }
+
+    .romania-img {
+        width: 100%;
+        height: 260px;
+        border: solid #765c05;
+        border-bottom: none;
+    }
+
+    .romania-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container-romania-text {
+        width: 100%;
+        flex-shrink: 1;
+        padding: 20px 12px;
+        gap: 15px;
+    }
+
+    .container-romania-text h4 {
+        padding: 0 5px;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .container-romania-text p {
+        width: 100%;
+        padding: 12px;
+        line-height: 1.5;
+    }
+
+    .container-romania-text a {
+        align-self: center;
+        text-align: center;
+    }
+
+
+    /* Section Endengered Flora */
+
+    .endengered {
+        height: auto;
+        padding: 10px;
+    }
+
+    .container-endengered {
+        height: auto;
+        margin: 10px;
+        padding: 15px 10px;
+    }
+
+    .container-endengered h2 {
+        margin: 20px 0;
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .container-gallery-cards-endengered {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+    }
+
+    .gallery-card-endengered {
+        width: calc(50% - 8px);
+        min-width: 0;
+        max-width: 300px;
+        flex: 0 1 calc(50% - 8px);
+    }
+
+    .gallery-card-endengered:last-child {
+        width: min(100%, 300px);
+        flex-basis: min(100%, 300px);
+    }
+
+    .gallery-card-endengered img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .gallery-card-endengered p {
+        margin: 4px 0;
+        padding: 8px 4px;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+
+    #endegered-bottom-text {
+        margin: 20px 0 10px;
+        padding: 15px;
+        font-size: 15px;
+        line-height: 1.6;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* Contact Form */
+
+    .contact-form {
+        height: auto;
+        min-height: 0;
+        padding: 15px;
+    }
+
+    .background-wood-form {
+        height: auto;
+        min-height: 0;
+        padding: 25px 12px;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        padding: 20px 15px;
+    }
+
+    .contact-form h2 {
+        font-size: 22px;
+    }
+
+    .form-container input, .form-container textarea {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .submit-button {
+        max-width: 100%;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        height: auto;
+        min-height: 0;
+        padding: 15px;
+    }
+
+    .external-container-footer {
+        height: auto;
+        min-height: 0;
+        background-position: center;
+    }
+
+    .container-footer {
+        height: auto;
+        min-height: 0;
+        padding: 20px 10px;
+        background-position: center;
+    }
+
+    .footer-info {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 10px;
+    }
+
+    .footer-text {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        min-height: 150px;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer-text:nth-child(3) {
+        min-height: 80px;
+    }
+
+    .footer-text hr {
+        width: 40%;
+    }
+
+    .footer-text p {
+        overflow-wrap: anywhere;
+    }
+
+    .footer-text button {
+        max-width: 100%;
+    }
+}
