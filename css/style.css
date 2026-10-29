@@ -221,7 +221,7 @@
     flex-direction: column;
     width: 100%;
     padding: 25px;
-    background-image: url(../img/fondo-madera-claro.jpg);
+    background-image: url(../img/background-bright-wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: solid #765c05;
@@ -399,7 +399,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-image: url(../img/fondo-madera-claro.jpg);
+    background-image: url(../img/background-bright-wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 5px #614f01;
@@ -555,6 +555,10 @@ hr.new1 {
         min-height: 600px;
         height: 75vh;
         background-position: center;
+    }
+
+    .menu {
+        display: none;
     }
 
     .container-header {
@@ -763,16 +767,10 @@ hr.new1 {
     .container-header {
         height: 85px;
         padding: 12px 20px;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .logo {
-        width: 55px;
-        height: 55px;
-        flex-shrink: 0;
-    }
-
-    .menu {
         display: none;
     }
 
