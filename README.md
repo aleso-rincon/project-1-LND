@@ -3,7 +3,7 @@
 
 ## Descripción del proyecto
 
-Este proyecto consiste en el desarrollo de una página web dedicada a la flora endémica de las Islas Canarias, utilizando **HTML5 y CSS3**.
+Este proyecto consiste en el desarrollo de una página web dedicada a la flora endémica de las Islas Canarias, utilizando **HTML5 y CSS**.
 
 El objetivo principal es dar a conocer algunas de las especies vegetales únicas del archipiélago canario y destacar su importancia para la biodiversidad y la conservación del medioambiente.
 
